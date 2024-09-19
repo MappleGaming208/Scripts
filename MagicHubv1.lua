@@ -6,7 +6,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
         Duration = 16;
 -- // Src Get
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/MappleGaming208/Scripts/main/MagicHubv1src.lua', true))()
-print([[
+--[[print([[
 ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 │                                                                                                           │
 │  _____ ______   ________  ________  ___  ________  ___  ___  ___  ___  ________  ___      ___  _____      │
@@ -32,7 +32,7 @@ print([[
 └───────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ]]--
 Window:CreateNotification('Loaded', 'Notification', 16)
-print([[ 
+--[[print([[ 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
 │  ___       ________  ________  ________  _______   ________  ___        │
@@ -47,6 +47,7 @@ print([[
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
   ]])
+]]--
 -- // Creating window
 local Window = Library:CreateWindow({
     Name = 'MagicHubv1', -- // The name of the created window.
