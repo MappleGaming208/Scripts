@@ -4,8 +4,11 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
             Text = "Made By MappleGaming208";
             Icon = "rbxassetid://75073711617713"})
         Duration = 16;
+print("MagicHubv1")
+
 -- // Src Get
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/MappleGaming208/Scripts/main/MagicHubv1src.lua', true))()
+print("Loaded MagicHubv1")
 --[[print([[
 ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 │                                                                                                           │
